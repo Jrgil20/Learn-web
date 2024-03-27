@@ -1,55 +1,12 @@
-body{
-    background: rgb(red, green, blue);
 
-}
-/* Selecting by tag name */
-h1 {
-    color: red;
+/* Path: assets/css/style.css */
+
+.example-element {
+    padding: 20px;
+    background-color: red;
 }
 
-/* Selecting by ID */
-#myElement {
+.another-example-element {
+    padding: 30px;
     background-color: blue;
 }
-
-/* Selecting by class */
-.myClass {
-    font-size: 16px;
-}
-
-/* Selecting by attribute */
-input[type="text"] {
-    border: 1px solid black;
-}
-
-/* Selecting by pseudo-class */
-a:hover {
-    color: orange;
-}
-
-/* Selecting by class and tag name */
-.myClass h2 {
-    color: green;
-}
-
-/* Selecting by ID and attribute */
-#myElement[type="checkbox"] {
-    border: 2px solid red;
-}
-
-/* Selecting by class and pseudo-class */
-.myClass:hover {
-    background-color: yellow;
-}
-
-/* Selecting by tag name and pseudo-element */
-p::before {
-    content: ">> ";
-    font-style: italic;
-}
-
-/* Selecting by pseudo-element */
-p::first-line {
-    font-weight: bold;
-}
-/* Path: assets/css/style.css */
