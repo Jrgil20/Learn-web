@@ -1,0 +1,20 @@
+body{
+    background: rgb(red, green, blue);
+
+}
+/* Selecting by tag name */
+h1 {
+    color: red;
+}
+
+/* Selecting by ID */
+#myElement {
+    background-color: blue;
+}
+
+/* Selecting by class */
+.myClass {
+    font-size: 16px;
+}
+
+/* Path: assets/css/style.css */
