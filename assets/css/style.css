@@ -17,4 +17,18 @@ h1 {
     font-size: 16px;
 }
 
+/* Selecting by attribute */
+input[type="text"] {
+    border: 1px solid black;
+}
+
+/* Selecting by pseudo-class */
+a:hover {
+    color: orange;
+}
+
+/* Selecting by pseudo-element */
+p::first-line {
+    font-weight: bold;
+}
 /* Path: assets/css/style.css */
